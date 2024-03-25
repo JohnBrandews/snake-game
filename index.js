@@ -41,7 +41,7 @@ function gameStart() {
     drawFood()
     nextTick()
 }
-// next tick to occur every 75 ms
+// next tick to occur every 100 ms
 function nextTick() {
     if(running){
         setTimeout(() =>{
